@@ -1,0 +1,12 @@
+void main() {
+  int rows = 8; 
+
+  for (int i = 1; i <= rows; i++) {
+    
+    String line = '';
+    for (int j = 1; j <= i; j++) {
+      line += '$i';
+    }
+    print(line);
+  }
+}
